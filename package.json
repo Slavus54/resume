@@ -1,0 +1,19 @@
+{
+  "name": "resume-htmx",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "Slavus54",
+  "license": "NSTU",
+  "dependencies": {
+    "dotenv": "^16.4.2",
+    "express": "^4.18.2",
+    "node": "^21.6.1",
+    "nodemon": "^3.0.3"
+  }
+}

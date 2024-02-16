@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/style.css" />
+    <link rel="icon" href="./assets//favicon.ico" />
+    <script src="https://unpkg.com/htmx.org@1.9.10" integrity="sha384-D1Kt99CQMDuVetoL1lrYwg5t+9QdHe7NLX/SoJYkXDFfX37iInKRy5xLSi8nO7UC" crossorigin="anonymous"></script>
+
+    <title>Slavus54 | Resume</title>
+</head>
+<body>
+    <div class="main">
+        <img hx-get="/projects"
+            hx-target=".items" 
+            hx-trigger="load"
+            hx-indicator="#loading" 
+            src="./assets/profile_photo.jpg"
+            class="photo_item"
+        />
+        
+        <h2 hx-get="/jobs" hx-trigger="load" hx-target=".jobs"><a href="https://github.com/Slavus54">Вячеслав Куприянов</a></h2>
+
+        <span class="about">
+            <b>frontend/fullstack</b> junior+/middle developer из г. Новосибирск, Россия
+        </span>
+
+        <h3>Технологии и умения</h3>
+
+        <p class="technologies">
+            Frontend: *JavaScript, *TypeScript, [React, NextJS, Remix], Redux, Context API, Init Testing, Webpack, SSR, UI/UX.<br />
+            Backend: NodeJS, [ExpressJS], *MongoDB, *PostgreSQL, Redis.<br />
+            Template: HTML, CSS, SCSS, flex, grid, БЭМ.<br />
+            API: GraphQL, Apollo, Fetch, Axios.<br />
+            Tools: IDEs, GitHub, Docker, Render, Netlify, Firebase, npm, git.<br />
+            Architecture: REST API, ACID, microservices, flux, SOLID, DRY.<br />
+            Soft: English B1, добросовестность и отсутствие снобизма.<br />
+        </p>
+
+        <h3>Проекты</h3>
+
+        <div class="items"></div>
+
+        <p>
+            У меня есть опыт реализации нескольких <b>open-source</b> библиотек на JS, которые опубликованы в <a href="https://www.npmjs.com/~slavus54">npmjs</a>. Активно занимаюсь их поддержкой и продвижением.
+        </p>
+
+        <h3>CV</h3>
+
+        <div class="items half jobs"></div>
+
+        <img src="./assets/loading.gif" class="htmx-indicator" id="loading" /> 
+
+        <ul class="footer">
+            <li>8-(913)-457-93-50</li>
+            <li>x.mirosfromsibir@gmail.com</li>
+            <li>@slavus54</li>
+        </ul>
+    </div>
+</body>
+</html>
