@@ -2,6 +2,7 @@ import express from 'express'
 import {config} from 'dotenv'
 import projects from './api/projects.js'
 import jobs from './api/jobs.js'
+import soft from './api/soft.js'
 
 config()
 
@@ -42,5 +43,18 @@ app.get('/jobs', async (req, res) => {
 
     res.send(html)
 })
+
+app.get('/soft', async (req, res) => {
+    let html = `${soft.map(el => `
+        <div class="item card">
+            ${el.title}
+            <h5>Уровень: ${el.level}</h5>     
+        </div>  
+        `
+    ).join('')}`
+
+    res.send(html)
+})
+
 
 app.listen(PORT, () => console.log(`ExpressJS started on port ${PORT}`))

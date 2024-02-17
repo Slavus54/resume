@@ -5,7 +5,7 @@ const projects = [
         category: 'Angular SPA',
         description: 'Приложение для работников финансовой сферы',
         year: 2024,
-        url: 'https://github.com/Slavus54/nurtour.io',
+        url: 'https://github.com/Slavus54/banking.com',
         technologies: ['Angular', 'Typescript', 'RxJS', 'Cookies', 'UI/UX', 'Jest', 'NodeJS', 'GraphQL', 'MongoDB']
     },
     {
@@ -84,7 +84,7 @@ const projects = [
         id: 'qFG1_fi',
         title: 'Ars.IO',
         category: 'React SPA',
-        description: 'Платформа для медициского центра Арс Медика',
+        description: 'Платформа для медицинского центра Арс Медика',
         year: 2024,
         url: 'https://github.com/Slavus54/ars.io',
         technologies: ['React', 'Redux', 'Typescript', 'Jest', 'Node', 'ExpressJS', 'MongoDB', 'GraphQL', 'Context API' ]
