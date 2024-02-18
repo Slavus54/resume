@@ -82,12 +82,12 @@ const projects = [
     },
     {
         id: 'qFG1_fi',
-        title: 'Ars.IO',
-        category: 'React SPA',
-        description: 'Платформа для медицинского центра Арс Медика',
+        title: 'Towns-API',
+        category: 'API',
+        description: 'Публичное API городов Европы',
         year: 2024,
-        url: 'https://github.com/Slavus54/ars.io',
-        technologies: ['React', 'Redux', 'Typescript', 'Jest', 'Node', 'ExpressJS', 'MongoDB', 'GraphQL', 'Context API' ]
+        url: 'https://github.com/Slavus54/towns-api',
+        technologies: ['Node', 'ExpressJS']
     },
     {
         id: 'pUI4_fd',

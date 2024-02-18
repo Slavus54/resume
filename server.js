@@ -19,14 +19,13 @@ app.get('/projects', async (req, res) => {
     let {limit} = req.query
 
     let html = `${projects.slice(0, limit).map(el => `
-        <div class="item panel">
+        <a class="item panel" href=${el.url}>    
             ${el.title}
             <div class="items small">
                 <h5>${el.category}</h5>
                 <h5>${el.year}</h5>
-            </div>
-            <a href=${el.url}>Подробнее</a>
-        </div>
+            </div>      
+        </a>
     `).join('')}` 
 
     res.send(html)
@@ -34,9 +33,10 @@ app.get('/projects', async (req, res) => {
 
 app.get('/jobs', async (req, res) => {
     let html = `${jobs.map(el => `
-        <div class="item card">
+        <div class="item panel">
             ${el.title}
-            <h6>${el.position} <br /> (${el.start}-${el.end})</h6>      
+            <h5 class="pale">${el.category}</h5>
+            <h6>${el.position} (${el.start}-${el.end})</h6>      
         </div>  
         `
     ).join('')}`
