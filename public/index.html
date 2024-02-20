@@ -12,48 +12,54 @@
 <body>
     <div class="main">
         <img hx-get="/projects"
-            hx-target=".items" 
+            hx-target=".projects" 
             hx-trigger="load"
             hx-indicator="#loading" 
             src="./assets/profile_photo.jpg"
             class="photo_item"
         />
         
-        <h2 hx-get="/jobs" hx-trigger="load" hx-target=".jobs"><a href="https://github.com/Slavus54">Вячеслав Куприянов</a></h2>
+        <h2 hx-get="/jobs" hx-trigger="load" hx-target=".jobs">Вячеслав Куприянов</h2>
 
         <span class="about">
             <b>frontend/fullstack</b> junior+/middle developer из г. Новосибирск, Россия
         </span>
 
-        <h3 hx-get="/soft" hx-trigger="load" hx-target=".soft">Технологии и умения</h3>
+        <div class="items small contacts" hx-get="/contacts" hx-trigger="load" hx-target=".contacts">
+
+        </div>
+
+        <h2 hx-get="/soft" hx-trigger="load" hx-target=".soft">Технологии и умения</h2>
 
         <p class="technologies">
-            Frontend: *JavaScript, *TypeScript, [React, NextJS, Remix], Redux, Context API, Unit Testing, Webpack, SSR, UI/UX.<br />
+            Frontend: *JavaScript, *TypeScript, [React, NextJS], Angular, Redux, Context API, Unit Testing, Webpack, SSR, UI/UX.<br />
             Backend: NodeJS, [ExpressJS], *MongoDB, *PostgreSQL, Redis.<br />
             Template: HTML, CSS, SCSS, flex, grid, БЭМ.<br />
             API: GraphQL, Apollo, Fetch, Axios.<br /> 
-            Tools: IDEs, GitHub, Docker, Render, Netlify, Firebase, npm, git.<br />
+            Tools: IDEs, GitHub, Docker, Render, Netlify, Firebase, Lighthouse, npm, git.<br />
             Architecture: REST API, ACID, microservices, flux, SOLID, DRY.<br />
             Soft: добросовестность в работе; отсутствие снобизма и вредных привычек.<br />
         </p>
 
-        <h3>Проекты</h3>
+        <h2>Проекты</h2>
 
-        <div class="items"></div>
+        <div class="items projects"></div>
 
-        <h3>Навыки</h3>
+        <h2>Текущий проект: <a href="https://github.com/Slavus54/landworry.ru">Landworry.ru</a></h2>
+
+        <h2>Навыки</h2>
 
         <div class="items half soft"></div>
 
         <p>
-            У меня есть опыт реализации нескольких <b>open-source</b> библиотек на JS, которые опубликованы в <a href="https://www.npmjs.com/~slavus54">npmjs</a>. Активно занимаюсь их поддержкой и продвижением.
+            У меня есть опыт реализации нескольких <b>open-source</b> библиотек на JS, которые опубликованы в npmjs. Активно занимаюсь их поддержкой и продвижением.
         </p>
 
         <p>
             В основном при разработке веб-приложений имел дело с <b>React/NextJS</b>, но также знаком и с <b>Angular</b>. Планирую глубже изучить его в 2024 году. 
         </p>
 
-        <h3>CV</h3>
+        <h2>CV</h2>
 
         <div class="items half jobs"></div>
 

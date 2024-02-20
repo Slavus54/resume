@@ -3,6 +3,7 @@ import {config} from 'dotenv'
 import projects from './api/projects.js'
 import jobs from './api/jobs.js'
 import soft from './api/soft.js'
+import contacts from './api/contacts.js'
 
 config()
 
@@ -56,5 +57,10 @@ app.get('/soft', async (req, res) => {
     res.send(html)
 })
 
+app.get('/contacts', async (req, res) => {
+    let html = `${contacts.map(el => `<a href=${el.url}><img src=${el.icon}></img></a>`).join('')}`
+
+    res.send(html)
+})
 
 app.listen(PORT, () => console.log(`ExpressJS started on port ${PORT}`))
