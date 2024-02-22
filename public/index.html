@@ -21,8 +21,9 @@
         
         <h2 hx-get="/jobs" hx-trigger="load" hx-target=".jobs">Вячеслав Куприянов</h2>
 
-        <span class="about">
-            <b>frontend/fullstack</b> junior+/middle developer из г. Новосибирск, Россия
+        <span class="about" hx-get="/courses" hx-trigger="load" hx-target=".courses">
+            <b>Frontend/Fullstack</b> junior+/middle developer из г. Новосибирск, Россия<br />
+            Опыт коммерческой разработки: <b>6 месяцев</b>
         </span>
 
         <div class="items small contacts" hx-get="/contacts" hx-trigger="load" hx-target=".contacts">
@@ -34,7 +35,7 @@
         <p class="technologies">
             Frontend: *JavaScript, *TypeScript, [React, NextJS], Angular, Redux, Context API, Unit Testing, Webpack, SSR, UI/UX.<br />
             Backend: NodeJS, [ExpressJS], *MongoDB, *PostgreSQL, Socket.IO, JWT, SMTP.<br />
-            Template: HTML, CSS, SCSS, flex, grid, БЭМ.<br />
+            Template: HTML, CSS, SCSS, flexbox, grid, БЭМ.<br />
             API: GraphQL, Apollo, Fetch, Axios.<br /> 
             Tools: IDEs, GitHub, Docker, Render, Netlify, Firebase, Lighthouse, npm, git.<br />
             Architecture: REST API, ACID, microservices, flux, SOLID, DRY.<br />
@@ -45,13 +46,18 @@
 
         <div class="items projects"></div>
 
-        <h2>Навыки</h2>
+        <h2>Коммерческий опыт</h2>
 
-        <div class="items half soft"></div>
+        <div class="items half jobs"></div>
 
         <h2>Текущий проект: <a href="https://github.com/Slavus54/landworry.ru">Landworry.ru</a></h2>
 
-        <img src="./assets/current-project.jpg" class="photo_item" />       
+        <img src="./assets/current-project.jpg" class="photo_item" />
+
+        <h2>Образование</h2>
+
+        <div class="items half courses"></div>
+        
 
         <h2>IT-Факты</h2>
 
@@ -60,19 +66,21 @@
         </p>
 
         <p>
-            На протяжении четырёх лет практиковал своё логическое мышление и алгоритмы на платформе <b>CodeWars</b>. Решил 150 ката, заслужив 5 кю.
+            Помимо разработки веб-приложений, на протяжении 4 лет я программировал на платформе <b>CodeWars</b>. В итоге решил 150 задач, заслужив 5 кю.
         </p>
 
-        <h2>CV</h2>
+       
+        <h2>Навыки</h2>
 
-        <div class="items half jobs"></div>
+        <div class="items half soft"></div>
+      
 
         <img src="./assets/loading.gif" class="htmx-indicator" id="loading" /> 
 
         <ul class="footer">
-            <li>8-(913)-457-93-50</li>
-            <li>x.mirosfromsibir@gmail.com</li>
-            <li>@slavus54</li>
+            <li>Тел: 8-(913)-457-93-50</li>
+            <li>Почта: x.mirosfromsibir@gmail.com</li>
+            <li>Телеграм: @slavus54</li>
         </ul>
     </div>
 </body>

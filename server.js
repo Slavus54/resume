@@ -2,6 +2,7 @@ import express from 'express'
 import {config} from 'dotenv'
 import projects from './api/projects.js'
 import jobs from './api/jobs.js'
+import courses from './api/courses.js'
 import soft from './api/soft.js'
 import contacts from './api/contacts.js'
 
@@ -35,9 +36,23 @@ app.get('/projects', async (req, res) => {
 app.get('/jobs', async (req, res) => {
     let html = `${jobs.map(el => `
         <div class="item panel">
+            ${el.title} 
+            (${el.technologies})
+            <h5 class="pale">${el.position}</h5>
+            <h6>С ${el.start} до ${el.end}</h6>  
+        </div>  
+        `
+    ).join('')}`
+
+    res.send(html)
+})
+
+app.get('/courses', async (req, res) => {
+    let html = `${courses.map(el => `
+        <div class="item panel">
             ${el.title}
             <h5 class="pale">${el.category}</h5>
-            <h6>${el.position} (${el.start}-${el.end})</h6>      
+            <h6>${el.start} - ${el.end}</h6>      
         </div>  
         `
     ).join('')}`
