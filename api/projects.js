@@ -1,12 +1,12 @@
 const projects = [
     {
         id: 'sUI7_ib',
-        title: 'Banking.com',
-        category: 'Angular SPA',
-        description: 'Приложение для работников финансовой сферы',
+        title: 'Reconquista.com',
+        category: 'React SPA',
+        description: 'Приложение для защиты Европы',
         year: 2024,
-        url: 'https://github.com/Slavus54/banking.com',
-        technologies: ['Angular', 'Typescript', 'RxJS', 'Cookies', 'UI/UX', 'Jest', 'NodeJS', 'GraphQL', 'MongoDB']
+        url: 'https://github.com/Slavus54/reconquista.com',
+        technologies: ['React', 'Typescript', 'Context API', 'Cache', 'Notifications', 'ExpressJS', 'GraphQL', 'Apollo', 'MongoDB']
     },
     {
         id: 'sUI6_ib',
