@@ -24,8 +24,8 @@ app.get('/projects', async (req, res) => {
         <a class="item panel" href=${el.url}>    
             ${el.title}
             <div class="items small">
-                <h5>${el.category}</h5>
-                <h5>${el.year}</h5>
+                <h5>Тип: ${el.category}</h5>
+                <h5>Год: ${el.year}</h5>
             </div>      
         </a>
     `).join('')}` 

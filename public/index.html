@@ -16,20 +16,21 @@
             hx-trigger="load"
             hx-indicator="#loading" 
             src="./assets/profile_photo.jpg"
-            class="photo_item"
+            class="photo additional_photo"
         />
         
         <h2 hx-get="/jobs" hx-trigger="load" hx-target=".jobs">Вячеслав Куприянов</h2>
 
         <span class="about" hx-get="/courses" hx-trigger="load" hx-target=".courses">
             <b>Frontend/Fullstack React Developer </b> из г. Новосибирск, Россия <br />
-            8-(913)-457-93-50 |  x.mirosfromsibir@gmail.com | @slavus54 <br />
+           
             Опыт коммерческой разработки: <b>6 месяцев</b>
         </span>
 
         <div class="items small contacts" hx-get="/contacts" hx-trigger="load" hx-target=".contacts">
-
         </div>
+
+        <span class="about"> 8-(913)-457-93-50 |  x.mirosfromsibir@gmail.com | @slavus54 </span>
 
         <h2 hx-get="/soft" hx-trigger="load" hx-target=".soft">Технологии и умения</h2>
 
@@ -51,9 +52,9 @@
 
         <div class="items half jobs"></div>
 
-        <h2>Текущий проект: <a href="https://github.com/Slavus54/landworry.ru">Landworry.ru</a></h2>
+        <h2>Текущий проект: <a href="https://github.com/Slavus54/landworry.ru">Reconquista.ru</a></h2>
 
-        <img src="./assets/current-project.jpg" class="photo_item" />
+        <img src="./assets/current-project.jpg" class="photo main_photo" />
 
         <h2>Образование</h2>
 
@@ -61,12 +62,12 @@
         
 
         <h2>IT-Факты</h2>
-
-        <p>
+        
+        <p class="article">
             У меня есть опыт реализации нескольких <b>open-source</b> библиотек на JS, которые опубликованы в npmjs. Активно занимаюсь их поддержкой и продвижением.
         </p>
 
-        <p>
+        <p class="article">
             Помимо разработки веб-приложений, на протяжении 4 лет я программировал на платформе <b>CodeWars</b>. В итоге решил 150 задач, заслужив 5 кю.
         </p>
 
