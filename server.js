@@ -39,7 +39,7 @@ app.get('/jobs', async (req, res) => {
             ${el.title} 
             (${el.technologies})
             <h5 class="pale">${el.position}</h5>
-            <h6>С ${el.start} до ${el.end}</h6>  
+            <p>С ${el.start} до ${el.end}</p>  
         </div>  
         `
     ).join('')}`
@@ -52,7 +52,7 @@ app.get('/courses', async (req, res) => {
         <div class="item panel">
             ${el.title}
             <h5 class="pale">${el.category}</h5>
-            <h6>${el.start} - ${el.end}</h6>      
+            <p>${el.start} - ${el.end}</p>      
         </div>  
         `
     ).join('')}`

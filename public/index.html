@@ -22,12 +22,12 @@
         <h2 hx-get="/jobs" hx-trigger="load" hx-target=".jobs">Вячеслав Куприянов</h2>
 
         <span class="about" hx-get="/courses" hx-trigger="load" hx-target=".courses">
-            <b>Frontend/Fullstack React Developer </b> из г. Новосибирск, Россия <br />
+            <b>Middle Frontend/Fullstack Developer </b> из г. Новосибирск, Россия <br />
            
             Опыт коммерческой разработки: <b>6 месяцев</b>
         </span>
 
-        <div class="items small contacts" hx-get="/contacts" hx-trigger="load" hx-target=".contacts">
+        <div class="items little contacts" hx-get="/contacts" hx-trigger="load" hx-target=".contacts">
         </div>
 
         <span class="about"> 8-(913)-457-93-50 |  x.mirosfromsibir@gmail.com | @slavus54 </span>
@@ -36,17 +36,21 @@
 
         <p class="technologies">
             Frontend: *JavaScript, *TypeScript, [React, NextJS], Redux, Context API, Unit Testing, Webpack, SSR, UI/UX.<br />
-            Backend: NodeJS, [ExpressJS], *MongoDB, *PostgreSQL, Socket.IO, JWT, SSE, SMTP.<br />
+            Backend: NodeJS, [ExpressJS], *MongoDB, Mongoose, *PostgreSQL, Socket.IO, JWT, SSE, SMTP.<br />
             Template: HTML, CSS, SCSS, flexbox, grid, БЭМ.<br />
             API: GraphQL, Apollo, Fetch, Axios.<br /> 
-            Tools: IDEs, GitHub, Docker, Render, Netlify, Firebase, Lighthouse, npm, git.<br />
-            Architecture: REST API, ACID, microservices, flux, SOLID, DRY.<br />
-            Soft: добросовестность в работе; отсутствие снобизма и вредных привычек.<br />
+            Tools: IDEs, GitHub, Docker, Render, Netlify, Firebase, Swagger, Lighthouse, npm, git.<br />
+            Architecture: DDD, SOLID, DRY, REST API, OpenAPI 3.0, ACID, microservices, flux.<br />
+            Libraries: wouter, styled-components, uniqid, bcrypt, js-cookie, centum.js, datus.js<br />
+            Soft: добросовестность в работе, отсутствие снобизма и вредных привычек.<br />
         </p>
 
         <h2>Проекты</h2>
 
         <div class="items projects"></div>
+
+        <h2 class="text">Остальные проекты расположены на <b>GitHub</b> с их подробным описанием, стеком и нововведениями.</h2>
+        <button><a href="https://github.com/Slavus54?tab=repositories">Смотреть</a></button>
 
         <h2>Коммерческий опыт</h2>
 
@@ -79,11 +83,9 @@
 
         <img src="./assets/loading.gif" class="htmx-indicator" id="loading" /> 
 
-        <ul class="footer">
-            <li>The University of IT I never graduated</li>
-            <li>Cogito ergo sum</li>
-            <li>Чего не могу воссоздать, того не понимаю</li>
-        </ul>
+        <div class="footer">
+            Новосибирск, 2019-2024
+        </div>
     </div>
 </body>
 </html>

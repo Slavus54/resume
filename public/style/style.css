@@ -130,8 +130,9 @@ button {
 	max-height: 3rem;
 	font-size: 1rem;
 	font-weight: 400;
-	padding: 1rem 1.25rem;
-	margin: 0.5rem 0rem;
+	box-shadow: 0px 0px 2px 1px #229ED9;
+	padding: 1rem 1.5rem;
+	margin: 1rem;
 	border-radius: 0.2rem;
 	letter-spacing: 0.1rem;
   	overflow: hidden;
@@ -285,7 +286,7 @@ input[type=text]:hover, textarea:hover {
 .panel {
 	font-weight: 400;
 	font-size: 1.1rem;
-	width: min(100%, 22rem);
+	width: min(100%, 24rem);
 	height: 10rem;
 	color: #040D21;
 	border: none;
@@ -345,13 +346,18 @@ input[type=text]:hover, textarea:hover {
 .footer {
 	position: relative;
 	display: flex;
-	justify-content: space-around;
+	justify-content: center;
 	width: 100%;
 	padding: 1rem;
 	margin: 0;
 	text-shadow: 0px 0px 2px #181C1F;
 	color: #ffffff;
 	background-color: #229ED9;
+}
+
+.text {
+	width: 50%;
+	word-spacing: 0.5rem;
 }
 
 @media (min-width: 500px) and (max-width: 1200px) {

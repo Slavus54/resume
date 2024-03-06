@@ -2,7 +2,7 @@ const jobs = [
     {
         title: 'Платформа для ООО «Арс Медика»',
         position: 'Fullstack Developer',
-        technologies: 'React, Redux, MongoDB',
+        technologies: 'React, TS, Redux, MongoDB',
         start: '08.2023',
         end: '01.2024'
     }
