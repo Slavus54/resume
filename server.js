@@ -36,7 +36,7 @@ app.get('/projects', async (req, res) => {
 app.get('/jobs', async (req, res) => {
     let html = `${jobs.map(el => `
         <div class="item panel">
-            ${el.title} 
+            ${el.title}<br />
             (${el.technologies})
             <h5 class="pale">${el.position}</h5>
             <p>С ${el.start} до ${el.end}</p>  
