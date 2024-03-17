@@ -32,7 +32,8 @@ const projects = [
         id: 'iUI1_oe',
         title: 'Modern Portfolio',
         category: 'Next SPA',
-        year: 2023
+        year: 2023,
+        url: 'https://github.com/Slavus54/portfolio'
     },
     {
         id: 'sKJ3_eg',

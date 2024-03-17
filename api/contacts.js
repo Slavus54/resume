@@ -8,6 +8,10 @@ const constacts = [
         icon: "https://img.icons8.com/color/48/vk-com.png"
     },
     {
+        url: 'https://linkedin.com/in/vyacheslav-kupriyanov-4a54321a8',
+        icon: "https://img.icons8.com/color/48/linkedin.png"
+    },
+    {
         url: 'https://www.codewars.com/users/Slavus54',
         icon: "https://img.icons8.com/color/48/codewars.png"
     },

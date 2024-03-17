@@ -49,8 +49,9 @@ app.get('/jobs', async (req, res) => {
 
 app.get('/courses', async (req, res) => {
     let html = `${courses.map(el => `
-        <div class="item panel">
+        <div class="item panel huge">
             ${el.title}
+            <img src=${el.path} class="icon" />
             <h5 class="pale">${el.category}</h5>
             <p>${el.start} - ${el.end}</p>      
         </div>  

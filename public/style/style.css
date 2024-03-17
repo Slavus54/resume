@@ -28,6 +28,11 @@ h1, h2, h3, h4, h5 {
 	user-select: none;
 }
 
+h2:hover {
+	color: #229ED9;
+	transition: .1s ease-in-out;
+}
+
 a {
 	color: inherit;
 	text-decoration: none;
@@ -37,7 +42,7 @@ p {
 	font-size: 1rem;
 	color: #333333;
 	line-height: 2rem;
-	margin: 1rem;
+	margin: 0.5rem;
 	width: 50%;
 }
 
@@ -226,11 +231,11 @@ input[type=text]:hover, textarea:hover {
 }
 
 .small {
-	width: min(100%, 36rem);
+	width: min(100%, 38rem);
 }
 
 .little {
-	width: min(100%, 24rem);
+	width: min(100%, 26rem);
 }
 
 .smallest {
@@ -287,7 +292,7 @@ input[type=text]:hover, textarea:hover {
 	font-weight: 400;
 	font-size: 1.1rem;
 	width: min(100%, 24rem);
-	height: 10rem;
+	height: 12rem;
 	color: #040D21;
 	border: none;
 	box-shadow: 0px 0px 2px 0px #333333;
@@ -296,9 +301,17 @@ input[type=text]:hover, textarea:hover {
 	margin: 1rem;
 }
 
+.huge {
+	height: 14rem;
+}
+
 .active, .label:hover, .panel:hover {
 	box-shadow: 0px 0px 2px 1px #229ED9;
 	transition: 0.1s ease-in-out;
+}
+
+.icon {
+	width: 2rem;
 }
 
 .photo {
@@ -337,8 +350,8 @@ input[type=text]:hover, textarea:hover {
 .technologies {
 	font-size: 1rem;
 	font-weight: 300;
-	word-spacing: 0.2rem;
-	line-height: 1.7rem;
+	word-spacing: 0.25rem;
+	line-height: 1.8rem;
 	width: 50%;
 	text-align: left;
 }
