@@ -1,0 +1,46 @@
+[
+    {
+        "title": "Frameworks & Technologies",
+        "skills": ["React", "Redux Toolkit", "Angular", "NgRx", "RxJS", "JQuery"]
+    },
+    {
+        "title": "Languages",
+        "skills": ["JavaScript", "TypeScript"]
+    },
+    {
+        "title": "Server",
+        "skills": ["NodeJS", "ExpressJS", "NestJS", "MongoDB", "PostgreSQL", "Socket.IO", "JWT", "SSE", "SMTP", "FS"]
+    },
+    {
+        "title": "Template",
+        "skills": ["HTML", "CSS", "SCSS", "Material UI", "Ant Design", "БЭМ", "flexbox"]
+    },
+    {
+        "title": "API",
+        "skills": ["Web APIs", "Telegram Mini Apps", "REST API", "GraphQL", "fetch", "axios"]
+    },
+    {
+        "title": "Browser & WebApps",
+        "skills": ["Cookies", "Storages", "SPA", "PWA", "SSG"]
+    },
+    {
+        "title": "Unit Testing",
+        "skills": ["Jest", "React Testing Library"]
+    },
+    {
+        "title": "Bundlers",
+        "skills": ["Webpack", "Vite", "Parcel"]
+    },
+    {
+        "title": "Tools",
+        "skills": ["GitHub", "Docker", "Photoshop", "Vercel", "Firebase", "Netlify", "ChatGPT", "Swagger", "npm", "git"]
+    },
+    {
+        "title": "Architecture & Principles",
+        "skills": ["OOP", "FSD", "ACID", "SOLID", "DRY", "flux"]
+    },
+    {
+        "title": "Libraries",
+        "skills": ["wouter", "styled-components", "framer-motion", "uniqid", "bcrypt", "js-cookie", "datus.js"]
+    }
+]
