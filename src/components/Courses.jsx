@@ -5,7 +5,7 @@ const Courses = () => courses.map(el =>
         {el.title}
         <img src={el.path} class="icon" />
         <h5 class="pale">{el.category}</h5>
-        <p>${el.start} - {el.end}</p>      
+        <p>{el.start} - {el.end}</p>      
     </div>  
 )
 
