@@ -1,27 +1,27 @@
 const projects = [
     {
-        title: 'MoneyHunter.com',
-        category: 'Angular SPA',
-        year: 2024,
-        url: 'https://github.com/Slavus54/moneyhunter.com'
-    },
-    {
-        title: 'Webglow.com',
+        title: 'NSTU-Web.ru',
         category: 'React PWA',
         year: 2024,
-        url: 'https://github.com/Slavus54/webglow.com'
+        url: 'https://github.com/Slavus54/nstu-web.ru'
     },
     {
-        title: 'Slavus54',
-        category: 'Angular SPA',
+        title: 'TravelHelper',
+        category: 'Vue',
         year: 2024,
-        url: 'https://github.com/Slavus54/slavus54'
+        url: 'https://github.com/Slavus54/travel-helper'
     },
     {
-        title: 'Schoolus.ru',
+        title: 'Developer',
+        category: 'Nuxt.js',
+        year: 2024,
+        url: 'https://github.com/Slavus54/developer'
+    },
+    {
+        title: 'Wotus.com',
         category: 'React SPA',
         year: 2024,
-        url: 'https://github.com/Slavus54/schoolus.ru'
+        url: 'https://github.com/Slavus54/wotus.com'
     },
     {
         title: 'GoStudy-Web.com',
@@ -36,16 +36,16 @@ const projects = [
         url: 'https://github.com/Slavus54/youtube-template'
     },
     {
-        title: 'Calcitus.js',
-        category: 'JS App',
-        year: 2024,
-        url: 'https://github.com/Slavus54/calcitus.js'
-    },
-    {
         title: 'Webrus.IO',
         category: 'React PWA',
         year: 2024,
         url: 'https://github.com/Slavus54/webrus.io'
+    },
+    {
+        title: 'Calcitus.js',
+        category: 'JS App',
+        year: 2024,
+        url: 'https://github.com/Slavus54/calcitus.js'
     },
     {
         title: 'Arclabs',
@@ -60,10 +60,10 @@ const projects = [
         url: 'https://github.com/Slavus54/datus.js'
     },
     {
-        title: 'Geocoder.js',
+        title: 'Crossword.js',
         category: 'JS App',
         year: 2024,
-        url: 'https://github.com/Slavus54/geocoder.js'
+        url: 'https://github.com/Slavus54/crossword.js'
     },
     {
         title: 'Towns-API',

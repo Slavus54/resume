@@ -11,7 +11,7 @@ import technologies from './api/technologies'
 function App() {
   const datus = new Datus()
 
-  const [date, setDate] = createSignal(datus.now('date'))
+  const [date] = createSignal(datus.now('date'))
 
 
   return (
@@ -25,7 +25,7 @@ function App() {
 
           <span class="about" hx-get="/courses" hx-trigger="load" hx-target=".courses">
               <b>(Frontend / Fullstack) JavaScript Developer </b> из г. Новосибирск, Россия <br />
-              Коммерческой опыт: <b>~ 5 месяцев</b> || Всего в веб-разработке: <b>4 года</b>
+              Коммерческой опыт: <b>~ 3 месяцев</b> || Всего в веб-разработке: <b>4 года</b>
           </span>
 
           <div class="items little contacts">
@@ -56,7 +56,7 @@ function App() {
           <button><a href="https://github.com/Slavus54?tab=repositories">Смотреть</a></button>
 
           <p class="window">
-            Сейчас работаю над библиотекой <a href="https://github.com/Slavus54/datus.js">Datus.js</a> & платформой <a href="https://github.com/Slavus54/webglow.com">Webglow.com</a>
+            Сейчас работаю над библиотекой <a href="https://github.com/Slavus54/datus.js">datus.js</a> и платформой <a href='https://github.com/Slavus54/nstu-web.ru'>nstu-web.ru</a>
           </p>
 
           <h2>Образование</h2>

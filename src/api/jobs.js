@@ -1,9 +1,9 @@
 const jobs = [
     {
-        title: 'Веб-приложение "GoStudy Web"',
+        title: 'Веб-приложение "NSTU Web"',
         position: 'Fullstack Developer',
-        technologies: 'React, TypeScript, Redux, Docker',
-        time: '01.2024 до 06.2024'
+        technologies: 'React, TypeScript, Jotai, Docker',
+        time: '07.2024 до 10.2024'
     }
 ]
 

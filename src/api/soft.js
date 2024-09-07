@@ -8,8 +8,8 @@ const soft = [
         level: "B1"
     },
     {
-        title: 'DeepSeek',
-        level: "Средний"
+        title: 'DeepSeek Coder',
+        level: "Начальный"
     }
 ]
 
