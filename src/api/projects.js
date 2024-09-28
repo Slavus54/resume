@@ -1,31 +1,31 @@
 const projects = [
     {
-        title: 'NSTU-Web.ru',
+        title: 'Wotus.com',
         category: 'React PWA',
         year: 2024,
-        url: 'https://github.com/Slavus54/nstu-web.ru'
+        url: 'https://github.com/Slavus54/wotus.com'
     },
     {
-        title: 'TravelHelper',
-        category: 'Vue',
+        title: 'Travel Helper',
+        category: 'Remix',
         year: 2024,
         url: 'https://github.com/Slavus54/travel-helper'
     },
     {
         title: 'Developer',
-        category: 'Nuxt.js',
+        category: 'Angular',
         year: 2024,
         url: 'https://github.com/Slavus54/developer'
     },
     {
-        title: 'Wotus.com',
+        title: 'NSTU-Web.ru',
         category: 'React SPA',
         year: 2024,
-        url: 'https://github.com/Slavus54/wotus.com'
+        url: 'https://github.com/Slavus54/nstu-web.ru'
     },
     {
         title: 'GoStudy-Web.com',
-        category: 'React PWA',
+        category: 'React SPA',
         year: 2024,
         url: 'https://github.com/Slavus54/gostudy-web.com'
     },
@@ -42,10 +42,10 @@ const projects = [
         url: 'https://github.com/Slavus54/webrus.io'
     },
     {
-        title: 'Calcitus.js',
+        title: 'Crossword.js',
         category: 'JS App',
         year: 2024,
-        url: 'https://github.com/Slavus54/calcitus.js'
+        url: 'https://github.com/Slavus54/crossword.js'
     },
     {
         title: 'Arclabs',
@@ -60,11 +60,11 @@ const projects = [
         url: 'https://github.com/Slavus54/datus.js'
     },
     {
-        title: 'Crossword.js',
+        title: 'Calcitus.js',
         category: 'JS App',
         year: 2024,
-        url: 'https://github.com/Slavus54/crossword.js'
-    },
+        url: 'https://github.com/Slavus54/calcitus.js'
+    },  
     {
         title: 'Towns-API',
         category: 'REST API',

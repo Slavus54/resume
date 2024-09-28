@@ -56,7 +56,7 @@ function App() {
           <button><a href="https://github.com/Slavus54?tab=repositories">Смотреть</a></button>
 
           <p class="window">
-            Сейчас работаю над библиотекой <a href="https://github.com/Slavus54/datus.js">datus.js</a> и платформой <a href='https://github.com/Slavus54/nstu-web.ru'>nstu-web.ru</a>
+            Сейчас работаю над библиотекой <a href="https://github.com/Slavus54/datus.js">datus.js</a> и игровой платформой <a href='https://github.com/Slavus54/wotus.com'>wotus.com</a>
           </p>
 
           <h2>Образование</h2>
@@ -80,7 +80,7 @@ function App() {
           </p>
 
           <p class="article">
-              Реализую собственные алгоритмы по работе с массивами, функциями и строками с последующей оценкой их временной сложности по <span id='pined'>Big O</span>.
+              Реализую собственные алгоритмы по работе с объектами, массивами, функциями и строками с последующей оценкой их временной сложности по <span id='pined'>Big O</span>.
           </p>
 
           <h2>Навыки</h2>

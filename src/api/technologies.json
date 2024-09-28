@@ -1,7 +1,7 @@
 [
     {
-        "title": "Frameworks & Technologies",
-        "skills": ["React", "Redux Toolkit", "Vue", "Vuex", "Nuxt", "RxJS", "Jotai", "JQuery"]
+        "title": "Frameworks & Techs",
+        "skills": ["React", "Redux Toolkit", "Remix", "Angular", "NgRx", "RxJS", "Jotai", "JQuery"]
     },
     {
         "title": "Languages",
@@ -17,7 +17,7 @@
     },
     {
         "title": "API",
-        "skills": ["Web APIs", "Telegram Mini Apps", "REST API", "GraphQL", "fetch", "axios"]
+        "skills": ["Web APIs", "Mapbox", "REST API", "GraphQL", "fetch", "axios"]
     },
     {
         "title": "Browser & WebApps",
@@ -29,7 +29,7 @@
     },
     {
         "title": "Bundlers",
-        "skills": ["Webpack", "Vite", "Parcel"]
+        "skills": ["Webpack", "Vite"]
     },
     {
         "title": "Tools",

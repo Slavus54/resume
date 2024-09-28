@@ -34,6 +34,7 @@ a {
 }
 
 span {
+	font-weight: 400;
 	font-size: .9rem;
 }
 
@@ -273,7 +274,7 @@ p[class='article']:nth-child(odd) {
 }
 
 .card {
-	font-weight: 400;
+	font-weight: 700;
 	width: min(100%, 18rem);
 	height: 8rem;
 	font-size: 1rem;
@@ -281,12 +282,11 @@ p[class='article']:nth-child(odd) {
 	background-color: inherit;
 	border: none;
 	transition: 0.1s ease-in-out;
-	border-radius: .5rem;
-	box-shadow: 0px 0px 2px 1px #e4e4e4;
+	border-radius: 1.25rem;
+	box-shadow: 0px 0px 1px 1px #e4e4e4;
 	padding: 1rem;
 	margin: 1rem 1rem;
 }
-
 
 .panel {
 	font-weight: 400;
@@ -295,9 +295,9 @@ p[class='article']:nth-child(odd) {
 	height: 12rem;
 	color: #040D21;
 	border: none;
-	box-shadow: 0px 0px 2px 0px #333333;
-	border-radius: 1rem;
-	padding: 0.5rem;
+	box-shadow: 0px 0px 1px .4px #229ED9;
+	border-radius: .25rem;
+	padding: 1rem;
 	margin: 1rem;
 }
 
@@ -305,7 +305,7 @@ p[class='article']:nth-child(odd) {
 	height: 14rem;
 }
 
-.active, .label:hover, .panel:hover {
+.active, .label:hover, .card:hover {
 	box-shadow: 0px 0px 2px 1px #229ED9;
 	transition: 0.1s ease-in-out;
 }
@@ -384,6 +384,7 @@ p[class='article']:nth-child(odd) {
 .dark {
 	background-color: #333333;
 	color: #ffffff;
+	box-shadow: none;
 }
 
 .text {
