@@ -13,7 +13,7 @@
     },
     {
         "title": "Template",
-        "skills": ["HTML", "CSS", "SCSS", "Material UI", "Ant Design", "БЭМ", "flexbox"]
+        "skills": ["HTML", "CSS", "SCSS", "Tailwind", "UI Kits", "БЭМ", "Flexbox"]
     },
     {
         "title": "API",

@@ -52,8 +52,25 @@ function App() {
             <Projects />
           </div>
 
-          <h2 class="text">Остальные проекты расположены на <b>GitHub</b> с их подробным описанием, стеком и нововведениями.</h2>
+          <h3 class="text">Остальные проекты расположены на <b>GitHub</b> с их подробным описанием, стеком и нововведениями.</h3>
           <button><a href="https://github.com/Slavus54?tab=repositories">Смотреть</a></button>
+
+          <h2>Статистика</h2>
+
+          <div class='items stats half'>
+            <div class='item dark_blue'>
+              7 веб-приложений
+            </div>
+            <div class='item blue'>
+              3 библиотеки на JS
+            </div>
+            <div class='item dark_blue'>
+              4 свёрстанных cайта
+            </div>
+            <div class='item blue'>
+              3 приложения на чистом JS
+            </div>
+          </div>
 
           <p class="window">
             Сейчас работаю над библиотекой <a href="https://github.com/Slavus54/datus.js">datus.js</a> и игровой платформой <a href='https://github.com/Slavus54/wotus.com'>wotus.com</a>

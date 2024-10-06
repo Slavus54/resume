@@ -18,10 +18,10 @@ const projects = [
         url: 'https://github.com/Slavus54/developer'
     },
     {
-        title: 'NSTU-Web.ru',
+        title: 'NSTU-Web.com',
         category: 'React SPA',
         year: 2024,
-        url: 'https://github.com/Slavus54/nstu-web.ru'
+        url: 'https://github.com/Slavus54/nstu-web.com'
     },
     {
         title: 'GoStudy-Web.com',
