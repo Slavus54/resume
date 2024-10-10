@@ -12,7 +12,7 @@ const projects = [
         url: 'https://github.com/Slavus54/travel-helper'
     },
     {
-        title: 'Developer',
+        title: 'LifeCRM',
         category: 'Angular',
         year: 2024,
         url: 'https://github.com/Slavus54/developer'
@@ -54,10 +54,10 @@ const projects = [
         url: 'https://github.com/Slavus54/arclabs-template'
     },
     {
-        title: 'Datus.js',
-        category: 'JS Library',
+        title: 'Portal of Datus.js',
+        category: 'Next.js',
         year: 2024,
-        url: 'https://github.com/Slavus54/datus.js'
+        url: 'https://github.com/Slavus54/centum-docs'
     },
     {
         title: 'Calcitus.js',
@@ -72,10 +72,10 @@ const projects = [
         url: 'https://github.com/Slavus54/towns-api'
     },
     {
-        title: 'Centum.js Documentation',
-        category: 'Preact App',
+        title: 'Datus.js',
+        category: 'JS Library',
         year: 2023,
-        url: 'https://github.com/Slavus54/centum-docs'
+        url: 'https://github.com/Slavus54/datus.js'
     },
     {
         title: 'Excel.js',

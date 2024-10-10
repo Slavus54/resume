@@ -1,7 +1,7 @@
 [
     {
         "title": "Frameworks & Techs",
-        "skills": ["React", "Redux Toolkit", "Remix", "Angular", "NgRx", "RxJS", "Jotai", "JQuery"]
+        "skills": ["React", "Redux Toolkit", "Next.js", "Remix", "Angular", "NgRx", "RxJS", "Jotai", "JQuery"]
     },
     {
         "title": "Languages",
@@ -9,11 +9,11 @@
     },
     {
         "title": "Server",
-        "skills": ["NodeJS", "ExpressJS", "NestJS", "MongoDB", "PostgreSQL", "Socket.IO", "JWT", "SSE", "SMTP", "FS"]
+        "skills": ["Node.js", "Express.js", "NestJS", "MongoDB", "PostgreSQL", "Socket.IO", "JWT", "SSE", "SMTP", "FS"]
     },
     {
         "title": "Template",
-        "skills": ["HTML", "CSS", "SCSS", "Tailwind", "UI Kits", "БЭМ", "Flexbox"]
+        "skills": ["HTML", "CSS", "SCSS", "UI Kits", "БЭМ", "Flexbox"]
     },
     {
         "title": "API",

@@ -291,6 +291,11 @@ p[class='article']:nth-child(odd) {
 	margin: 1rem 1rem;
 }
 
+.blue-card, .blue-card span {
+	background-color: #002e46;
+	color: #e4e4e4;
+}
+
 .panel {
 	font-weight: 400;
 	font-size: 1.1rem;

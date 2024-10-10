@@ -25,7 +25,7 @@ function App() {
 
           <span class="about" hx-get="/courses" hx-trigger="load" hx-target=".courses">
               <b>(Frontend / Fullstack) JavaScript Developer </b> из г. Новосибирск, Россия <br />
-              Коммерческой опыт: <b>~ 3 месяцев</b> || Всего в веб-разработке: <b>4 года</b>
+              Коммерческий опыт: <b>~ 7 месяцев</b> || Всего в веб-разработке: <b>4 года</b>
           </span>
 
           <div class="items little contacts">
@@ -47,13 +47,18 @@ function App() {
           </div>
 
           <h2>Лучшие проекты</h2>
-
-          <div class="items projects">
-            <Projects />
-          </div>
-
+          <Projects first={0} second={12} />
+    
           <h3 class="text">Остальные проекты расположены на <b>GitHub</b> с их подробным описанием, стеком и нововведениями.</h3>
           <button><a href="https://github.com/Slavus54?tab=repositories">Смотреть</a></button>
+    
+          <Projects first={12} />       
+
+
+
+          <p class="window">
+            Сейчас работаю над библиотекой <a href="https://github.com/Slavus54/datus.js">datus.js</a> и игровой платформой <a href='https://github.com/Slavus54/wotus.com'>wotus.com</a>
+          </p>
 
           <h2>Статистика</h2>
 
@@ -72,9 +77,7 @@ function App() {
             </div>
           </div>
 
-          <p class="window">
-            Сейчас работаю над библиотекой <a href="https://github.com/Slavus54/datus.js">datus.js</a> и игровой платформой <a href='https://github.com/Slavus54/wotus.com'>wotus.com</a>
-          </p>
+          
 
           <h2>Образование</h2>
 
