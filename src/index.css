@@ -338,7 +338,7 @@ p[class='article']:nth-child(odd) {
 
 .pale {
 	line-height: 2rem;
-	letter-spacing: 0.15rem;
+	letter-spacing: 0.125rem;
 	opacity: .5;
 	user-select: none;
 }
@@ -359,8 +359,8 @@ p[class='article']:nth-child(odd) {
 .about {
 	font-size: 1rem;
 	font-weight: 200;
-	line-height: 2.25rem;
-	margin: .75rem;
+	line-height: 2.5rem;
+	margin: .4rem;
 }
 
 .technologies {
@@ -370,6 +370,11 @@ p[class='article']:nth-child(odd) {
 	line-height: 1.9rem;
 	width: 50%;
 	text-align: left;
+}
+
+#experience {
+	width: 60%;
+	height: 4rem;
 }
 
 .footer {
@@ -409,10 +414,16 @@ p[class='article']:nth-child(odd) {
 }
 
 #pined {
+	cursor: pointer;
 	background-color: #229ED9;
 	color: #ffffff;
 	border-radius: .2rem;
-	padding: .25rem;
+	padding: .25rem .4rem;
+	transition: .1s ease-in-out;
+}
+
+#pined:hover {
+	background-color: rgb(63, 177, 230);
 }
 
 @media (min-width: 500px) and (max-width: 1200px) {

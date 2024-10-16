@@ -1,9 +1,9 @@
 const projects = [
     {
-        title: 'Wotus.com',
+        title: 'ShireX.ru',
         category: 'React PWA',
         year: 2024,
-        url: 'https://github.com/Slavus54/wotus.com'
+        url: 'https://github.com/Slavus54/shirex.ru'
     },
     {
         title: 'Travel Helper',
@@ -12,17 +12,18 @@ const projects = [
         url: 'https://github.com/Slavus54/travel-helper'
     },
     {
-        title: 'LifeCRM',
-        category: 'Angular',
+        title: 'Resume',
+        category: 'Solid',
         year: 2024,
-        url: 'https://github.com/Slavus54/developer'
+        url: 'https://github.com/Slavus54/resume'
     },
     {
-        title: 'NSTU-Web.com',
-        category: 'React SPA',
+        title: 'Wotus.com',
+        category: 'React PWA',
         year: 2024,
-        url: 'https://github.com/Slavus54/nstu-web.com'
+        url: 'https://github.com/Slavus54/wotus.com'
     },
+  
     {
         title: 'GoStudy-Web.com',
         category: 'React SPA',
@@ -33,13 +34,13 @@ const projects = [
         title: 'YouTube Main Page',
         category: 'Template',
         year: 2024,
-        url: 'https://github.com/Slavus54/youtube-template'
+        url: 'https://github.com/Slavus54/youtube-mainpage'
     },
     {
-        title: 'Webrus.IO',
-        category: 'React PWA',
+        title: 'NSTU-Web.com',
+        category: 'React SPA',
         year: 2024,
-        url: 'https://github.com/Slavus54/webrus.io'
+        url: 'https://github.com/Slavus54/nstu-web.com'
     },
     {
         title: 'Crossword.js',
@@ -57,7 +58,7 @@ const projects = [
         title: 'Portal of Datus.js',
         category: 'Next.js',
         year: 2024,
-        url: 'https://github.com/Slavus54/centum-docs'
+        url: 'https://github.com/Slavus54/portal-datus'
     },
     {
         title: 'Calcitus.js',

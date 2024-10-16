@@ -13,7 +13,6 @@ function App() {
 
   const [date] = createSignal(datus.now('date'))
 
-
   return (
       <div class="main">
           <img 
@@ -21,14 +20,15 @@ function App() {
               class="photo additional_photo"
           />
           
-          <h2 hx-get="/jobs" hx-trigger="load" hx-target=".jobs">Вячеслав Куприянов</h2>
+          <h2>Вячеслав Куприянов</h2>
 
-          <span class="about" hx-get="/courses" hx-trigger="load" hx-target=".courses">
+          <span class="about">
               <b>(Frontend / Fullstack) JavaScript Developer </b> из г. Новосибирск, Россия <br />
-              Коммерческий опыт: <b>~ 7 месяцев</b> || Всего в веб-разработке: <b>4 года</b>
+              Коммерческий опыт: <b>~ 7 месяцев</b> ||  Всего в веб-разработке: <b>4 года</b> <br />
+              Желаемый доход: <b>40 тыс.</b> || Ранг: <span id='pined'>Junior +</span>
           </span>
 
-          <div class="items little contacts">
+          <div class="items little">
             <Contacts />
           </div>
 
@@ -42,11 +42,10 @@ function App() {
 
           <h2>Коммерческий опыт</h2>
 
-          <div class="items half jobs">
-            <Jobs />
-          </div>
+          <Jobs />
 
           <h2>Лучшие проекты</h2>
+
           <Projects first={0} second={12} />
     
           <h3 class="text">Остальные проекты расположены на <b>GitHub</b> с их подробным описанием, стеком и нововведениями.</h3>
@@ -54,10 +53,8 @@ function App() {
     
           <Projects first={12} />       
 
-
-
           <p class="window">
-            Сейчас работаю над библиотекой <a href="https://github.com/Slavus54/datus.js">datus.js</a> и игровой платформой <a href='https://github.com/Slavus54/wotus.com'>wotus.com</a>
+            Сейчас работаю над библиотекой <a href="https://github.com/Slavus54/datus.js">Datus.js</a> и платформой <a href='https://github.com/Slavus54/shirex.ru'>ShireX.ru</a>
           </p>
 
           <h2>Статистика</h2>
@@ -76,8 +73,6 @@ function App() {
               3 приложения на чистом JS
             </div>
           </div>
-
-          
 
           <h2>Образование</h2>
 
