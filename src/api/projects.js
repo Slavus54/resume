@@ -6,10 +6,10 @@ const projects = [
         url: 'https://github.com/Slavus54/shirex.ru'
     },
     {
-        title: 'Travel Helper',
-        category: 'Remix',
+        title: 'Portal | Datus.js',
+        category: 'Next.js',
         year: 2024,
-        url: 'https://github.com/Slavus54/travel-helper'
+        url: 'https://github.com/Slavus54/portal-datus'
     },
     {
         title: 'Resume',
@@ -55,10 +55,10 @@ const projects = [
         url: 'https://github.com/Slavus54/arclabs-template'
     },
     {
-        title: 'Portal of Datus.js',
-        category: 'Next.js',
+        title: 'Travel Helper',
+        category: 'Remix',
         year: 2024,
-        url: 'https://github.com/Slavus54/portal-datus'
+        url: 'https://github.com/Slavus54/travel-helper'
     },
     {
         title: 'Calcitus.js',
