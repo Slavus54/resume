@@ -1,7 +1,7 @@
 [
     {
         "title": "Frameworks & Techs",
-        "skills": ["React", "Redux Toolkit", "Next.js", "Remix", "RxJS", "Jotai", "JQuery"]
+        "skills": ["React", "Redux Toolkit", "Next.js", "RxJS", "Jotai", "JQuery"]
     },
     {
         "title": "Languages",
@@ -33,7 +33,7 @@
     },
     {
         "title": "Tools",
-        "skills": ["GitHub", "Docker", "Photoshop", "Figma", "Vercel", "Firebase", "Netlify", "ChatGPT", "Swagger", "npm", "git"]
+        "skills": ["GitHub", "Docker", "Figma", "Vercel", "Firebase", "Netlify", "ChatGPT", "Swagger", "npm", "git"]
     },
     {
         "title": "Architecture & Principles",

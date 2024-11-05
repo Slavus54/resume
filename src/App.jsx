@@ -68,7 +68,7 @@ function App() {
 
                   <div class='items stats half'>
                     <div class='item dark_blue'>
-                      7 веб-приложений
+                      11 веб-приложений
                     </div>
                     <div class='item blue'>
                       3 библиотеки на JS
@@ -77,7 +77,7 @@ function App() {
                       4 свёрстанных cайта
                     </div>
                     <div class='item blue'>
-                      3 приложения на чистом JS
+                      3 приложения на JS
                     </div>
                   </div>
 
@@ -94,7 +94,7 @@ function App() {
                   </p>
 
                   <p class="article">
-                      Помимо разработки веб-приложений, на протяжении 4 лет тренируюсь на платформе <span id='pined'>CodeWars</span>. <br />В итоге решил <b>150 задач</b> сложностью 7-5 кю.
+                      Помимо разработки веб-приложений, на протяжении 4 лет тренируюсь на платформе <span id='pined'>CodeWars</span>. <br />В итоге решил <span id='pined'>150 задач</span> сложностью 7-5 кю.
                   </p>
 
                   <p class="article">
@@ -114,10 +114,10 @@ function App() {
             :
               <>                  
                   <div class='idea'>
-                    <a href='https://github.com/Slavus54/apps-ideas'>
-                      <img class='little-icon' src='https://img.icons8.com/ios-filled/50/github.png' />
+                    <a href='https://docs.google.com/document/d/1LTqYOLfzAChkQTLXAhzfcfditOR0ZQBtJLvVXBuWVLw/edit?usp=sharing'>
+                      <img class='little-icon' src='https://drive.google.com/favicon.ico' />
                       <span class="about">Идеи для IT проектов</span>
-                      <img class='little-icon' src='https://img.icons8.com/ios-filled/50/github.png' />
+                      <img class='little-icon' src='https://drive.google.com/favicon.ico' />
                     </a>
                   </div> 
 

@@ -12,14 +12,14 @@ const projects = [
         url: 'https://github.com/Slavus54/portal-datus'
     },
     {
-        title: 'Resume',
-        category: 'Solid',
+        title: 'Travel Helper',
+        category: 'Remix',
         year: 2024,
-        url: 'https://github.com/Slavus54/resume'
+        url: 'https://github.com/Slavus54/travel-helper'
     },
     {
         title: 'Wotus.com',
-        category: 'React PWA',
+        category: 'React SPA',
         year: 2024,
         url: 'https://github.com/Slavus54/wotus.com'
     },
@@ -49,16 +49,16 @@ const projects = [
         url: 'https://github.com/Slavus54/crossword.js'
     },
     {
-        title: 'Arclabs',
-        category: 'Template',
+        title: 'Siber UI',
+        category: 'Preact',
         year: 2024,
-        url: 'https://github.com/Slavus54/arclabs-template'
+        url: 'https://github.com/Slavus54/siber-ui'
     },
     {
-        title: 'Travel Helper',
-        category: 'Remix',
+        title: 'Resume',
+        category: 'Solid',
         year: 2024,
-        url: 'https://github.com/Slavus54/travel-helper'
+        url: 'https://github.com/Slavus54/resume'
     },
     {
         title: 'Calcitus.js',
