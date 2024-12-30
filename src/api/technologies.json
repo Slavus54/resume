@@ -1,7 +1,7 @@
 [
     {
         "title": "Frameworks & Techs",
-        "skills": ["React", "Redux Toolkit", "Next.js", "RxJS", "Jotai", "JQuery"]
+        "skills": ["React", "Redux Toolkit", "Next.js", "Angular", "RxJS", "Jotai", "D3.js", "JQuery"]
     },
     {
         "title": "Languages",
@@ -9,11 +9,11 @@
     },
     {
         "title": "Server",
-        "skills": ["Node.js", "Express.js", "MongoDB", "PostgreSQL", "Socket.IO", "JWT", "SSE", "SMTP", "FS"]
+        "skills": ["Node.js", "Express.js", "NestJS", "MongoDB", "PostgreSQL", "Socket.IO", "JWT", "SSE", "SMTP", "FS"]
     },
     {
         "title": "Template",
-        "skills": ["HTML", "CSS", "SCSS", "Tailwind CSS", "UI Kits", "БЭМ", "flexbox"]
+        "skills": ["HTML", "CSS", "SCSS", "UI Kits", "БЭМ", "flexbox"]
     },
     {
         "title": "API",
@@ -41,6 +41,6 @@
     },
     {
         "title": "Libraries",
-        "skills": ["wouter", "styled-components", "datus.js", "framer-motion", "uniqid", "bcrypt", "js-cookie"]
+        "skills": ["wouter", "styled-components", "datus.js", "framer-motion", "bcrypt", "js-cookie"]
     }
 ]

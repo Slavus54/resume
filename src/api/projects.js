@@ -1,9 +1,9 @@
 const projects = [
     {
-        title: 'ShireX.ru',
-        category: 'React PWA',
+        title: 'Velohook.com',
+        category: 'React SPA',
         year: 2024,
-        url: 'https://github.com/Slavus54/shirex.ru'
+        url: 'https://github.com/Slavus54/velohook.com'
     },
     {
         title: 'Portal | Datus.js',
@@ -12,29 +12,29 @@ const projects = [
         url: 'https://github.com/Slavus54/portal-datus'
     },
     {
-        title: 'Travel Helper',
-        category: 'Remix',
+        title: 'Truck Dashboard',
+        category: 'Angular',
         year: 2024,
-        url: 'https://github.com/Slavus54/travel-helper'
+        url: 'https://github.com/Slavus54/truck-dashboard'
     },
+ 
     {
-        title: 'Wotus.com',
-        category: 'React SPA',
+        title: 'ShireX.ru',
+        category: 'React PWA',
         year: 2024,
-        url: 'https://github.com/Slavus54/wotus.com'
-    },
-  
-    {
-        title: 'GoStudy-Web.com',
-        category: 'React SPA',
-        year: 2024,
-        url: 'https://github.com/Slavus54/gostudy-web.com'
+        url: 'https://github.com/Slavus54/shirex.ru'
     },
     {
         title: 'YouTube Main Page',
         category: 'Template',
         year: 2024,
         url: 'https://github.com/Slavus54/youtube-mainpage'
+    },
+    {
+        title: 'GoStudy-Web.com',
+        category: 'React SPA',
+        year: 2024,
+        url: 'https://github.com/Slavus54/gostudy-web.com'
     },
     {
         title: 'NSTU-Web.com',
@@ -49,10 +49,10 @@ const projects = [
         url: 'https://github.com/Slavus54/crossword.js'
     },
     {
-        title: 'Siber UI',
-        category: 'Preact',
+        title: 'Wotus.com',
+        category: 'React SPA',
         year: 2024,
-        url: 'https://github.com/Slavus54/siber-ui'
+        url: 'https://github.com/Slavus54/wotus.com'
     },
     {
         title: 'Resume',
@@ -68,7 +68,7 @@ const projects = [
     },  
     {
         title: 'Towns-API',
-        category: 'REST API',
+        category: 'Node.js',
         year: 2024,
         url: 'https://github.com/Slavus54/towns-api'
     },
@@ -86,7 +86,7 @@ const projects = [
     },
     {
         title: 'Password Generator',
-        category: 'Gatsby App',
+        category: 'Gatsby',
         year: 2020,
         url: 'https://github.com/Slavus54/password-simple-gen'
     },
